@@ -1,0 +1,11 @@
+import java.util.Scanner;
+import java.util.Random;
+
+public class GuessingGame {
+
+    // Function non-return type (void) untuk menampilkan instruksi permainan
+    public static void displayInstructions() {
+        System.out.println("Selamat datang di permainan tebak angka!");
+        System.out.println("Tebak angka antara 1 dan 100.");
+        System.out.println("Anda memiliki 5 kesempatan untuk menebak angka yang benar.");
+    }
