@@ -29,3 +29,14 @@ public class GuessingGame {
         }
         return false;
     }
+
+public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        Random random = new Random();
+
+        // Menampilkan instruksi permainan (non-return type function)
+        displayInstructions();
+ // Menghasilkan angka acak untuk ditebak pemain
+        int correctNumber = generateRandomNumber();
+        boolean hasWon = false;
+        int attempts = 5; // Jumlah kesempatan pemain untuk menebak
