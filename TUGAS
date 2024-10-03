@@ -16,4 +16,16 @@ public class GuessingGame {
         Random random = new Random();
         return random.nextInt(100) + 1; // Menghasilkan angka antara 1 dan 100
     }
-
+//Alfitra Ulinuha Yusuf
+// Method untuk mengecek apakah tebakan pemain benar atau tidak
+    public static boolean checkGuess(int guess, int correctNumber) {
+        if (guess == correctNumber) {
+            System.out.println("Tebakan Anda benar! Selamat!");
+            return true;
+        } else if (guess > correctNumber) {
+            System.out.println("Tebakan Anda terlalu tinggi.");
+        } else {
+            System.out.println("Tebakan Anda terlalu rendah.");
+        }
+        return false;
+    }
