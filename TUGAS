@@ -11,7 +11,8 @@ public class GuessingGame {
         System.out.println("Tebak angka antara 1 dan 100.");
         System.out.println("Anda memiliki 5 kesempatan untuk menebak angka yang benar.");
     }
-  // Method untuk menghasilkan angka acak antara 1 dan 100
+//Syauqi AKifur Rahman
+// Method untuk menghasilkan angka acak antara 1 dan 100
     public static int generateRandomNumber() {
         Random random = new Random();
         return random.nextInt(100) + 1; // Menghasilkan angka antara 1 dan 100
